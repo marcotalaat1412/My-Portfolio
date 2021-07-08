@@ -1,0 +1,39 @@
+/*Media Query for XS screen*/
+@media (max-width: 767px) {
+
+    /* Works*/
+    .works .container {
+        grid-template-columns: 1fr;
+    }
+
+    footer .row div {
+        margin: 20px 0;
+    }
+}
+
+
+/*Media Query for S screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-svg-2 {
+        margin-top: -10px;
+    }
+
+    footer .row div {
+        margin: 10px 0;
+    }
+
+    .svg-footer {
+        margin-bottom: -10px;
+    }
+}
+
+/*Media Query for Med screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slider-svg-2 {
+        margin-top: -10px;
+    }
+
+    .svg-footer {
+        margin-bottom: -10px;
+    }
+}
