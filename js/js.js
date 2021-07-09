@@ -1,7 +1,3 @@
-var scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 1200,
-	speedAsDuration: true
-});
 
 $(function () {
 
@@ -10,6 +6,11 @@ $(function () {
 	})
 	$(".works .container .all").on("mouseleave", function(){
 		$(this).children().last().css("left", "-100%")
+	})
+	$(".submit").click(function(){
+		$(".alert").fadeIn(2000, function(){
+			$(this).fadeOut();
+		})
 	})
 
 })
