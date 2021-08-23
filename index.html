@@ -5,15 +5,13 @@
   <!------------ Meta ------------------>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description"
-    content="Marco Talaat's portfolio, displays his works and write short wow slideInRight description about himself">
-  <meta name="keywords"
-    content="Portfolio, Marco, Inspiration, Portfolio of web developer, amazing porfolio, HTML, CSS, JavaScript">
+  <meta name="description" content="Marco Talaat's portfolio, displays my works and CV . Contact with me">
+  <meta name="keywords" content="Portfolio, Marco Talaat, Inspiration, Portfolio of web developer, amazing porfolio">
   <meta name="author" content="Marco Talaat">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!------------ Title ------------------>
-  <title>Marco - Portfolio</title>
+  <title>Marco Talaat - Portfolio</title>
 
   <!------------ Link ------------------>
   <link rel="stylesheet" href="css/animate.css">
@@ -22,6 +20,11 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/image-zoom.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 
   <!------------ Fav icon ------------------>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -57,6 +60,11 @@
   <!--------------------------------------------->
 
   <!-- About -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#ebebeb" fill-opacity="1"
+      d="M0,96L48,90.7C96,85,192,75,288,112C384,149,480,235,576,224C672,213,768,107,864,85.3C960,64,1056,128,1152,154.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
   <section id="about" class="about">
     <i class="mdi mdi-cellphone-link"></i>
     <div class="container">
@@ -69,9 +77,11 @@
               things in which they are good at or in which their heart lays. That’s why I chose freelance
               web developer as my career because
               I believe I’m good at this and mas I am always honest and I am never afraid of doing hard work.
-              I am very much an expert in using HTML5 & CSS3 also know the use of JavaScript , React.js , jQuery ,Bootstrap,
+              I am very much an expert in using HTML5 & CSS3 also know the use of JavaScript , React.js , jQuery
+              ,Bootstrap,
               AJAX ,WordPress, PHP and MySQL.
-              <a href="images/My_CV.pdf" download>Download My CV</a>
+              <a href="CVs/Front_End_CV.pdf" download>Download CV (Front End Developer)</a>
+              <a href="CVs/Full_Stack_Developer.pdf" download>Download CV (Full Stack Developer)</a>
             </p>
           </div>
         </div>
@@ -107,6 +117,11 @@
       </div>
     </div>
   </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="transform: rotate(180deg); margin-top: -30px">
+    <path fill="#ebebeb" fill-opacity="1"
+      d="M0,160L40,133.3C80,107,160,53,240,58.7C320,64,400,128,480,165.3C560,203,640,213,720,208C800,203,880,181,960,154.7C1040,128,1120,96,1200,96C1280,96,1360,128,1400,144L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+    </path>
+  </svg>
   <!--------------------------------------------->
 
   <!-- Works -->
@@ -114,43 +129,151 @@
     <h2 class="display-4 bold text-center sec-color wow fadeIn p-4" data-wow-delay=".3s">My Works</h2>
     <div class="container">
 
-      <div class="one all wow bounceInLeft" data-wow-delay=".1s">
-        <img src="images/works/fashion.png" alt="Fashion">
-        <div class="info">
+      <div class="one all wow bounceInLeft position-relative overflow-hidden" data-wow-delay=".1s">
+        <img src="images/banners/Fashion E-commerce website.png" alt="Fashion" class="img-fluid">
+        <div class="web-link text-center">
+          <a href="http://fashion-e.rf.gd/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <input type="text" value="http://fashion-e.rf.gd/" readonly>
+          <a class="web-desc"><i class="fas fa-sort-down"></i></a>
+        </div>
+        <div class="">
           <h4 class="bold">Fashion e-commerce</h4>
           <p>E-commerce & Blogger website,
-            Full dynamic built by pure PHP and MySql,
-            Full Responsive,
-            Dashboard present</p>
-          <a target="_blank" href="http://fashion-e.rf.gd/">Click Here</a>
+            Full dynamic built by PHP and MySql,
+            <ul>
+              <li>Dashboard present</li>
+              <li>Shopping Cart </li>
+              <li>Register</li>
+              <li>Categories</li>
+              <li>Full Responsive</li>
+              <li>Database</li>
+              <li>Ads space</li>
+            </ul>
+          </p>
         </div>
       </div>
 
       <div class="two all wow fadeInUpBig" data-wow-delay=".1s">
-        <img src="images/works/coin-flip.png" alt="Coin Flip">
-        <div class="info">
+        <img src="images/banners/Coin Flip Responsive layout.png" alt="Fashion" class="img-fluid">
+        <div class="web-link text-center">
+          <a href="https://coin-flip-15.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <input type="text" value="https://coin-flip-15.netlify.app/" readonly>
+          <a class="web-desc"><i class="fas fa-sort-down"></i></a>
+        </div>
+        <div class="">
           <h4 class="bold">Coin Flip</h4>
-          <p>Coin Flip website contain 3 pages (coin flip, TOS and FAQ)</p>
-          <a target="_blank" href="https://coin-flip-15.netlify.app/">Click Here</a>
+          <p>
+            Coin Flip website contain 3 pages (coin flip, TOS and FAQ)
+            <ul>
+              <li>Responsive Layout</li>
+              <li>Chat</li>
+              <li>3 pages</li>
+            </ul>
+          </p>
         </div>
       </div>
 
       <div class="three all wow bounceInRight" data-wow-delay=".1s">
-        <img src="images/works/Home 1515.png" alt="Driving">
-        <div class="info">
-          <h4 class="bold">UI/UX Driving School</h4>
-          <p>Simple website for driving school i design it By Adobe XD and Photoshop</p>
-          <a target="_blank" href="https://www.behance.net/gallery/97896045/UIUX-Design-Driving-School">Click
-            Here</a>
+        <img src="images/banners/Vector.png" alt="Driving">
+        <div class="web-link text-center">
+          <a href="https://vector-website.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <input type="text" value="https://vector-website.netlify.app/" readonly>
+          <a class="web-desc"><i class="fas fa-sort-down"></i></a>
+        </div>
+        <div class="">
+          <h4 class="bold">Vector Design</h4>
+          <p>Simple vector animated website</p>
         </div>
       </div>
 
       <div class="four all wow fadeInUpBig" data-wow-delay=".1s">
-        <img src="images/works/vector-website.png" alt="Vector">
+        <img src="images/banners/Workflow.png" alt="Vector">
+        <div class="web-link text-center">
+          <a href="https://design-22.netlify.app//" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <input type="text" value="https://design-22.netlify.app/" readonly>
+          <a class="web-desc"><i class="fas fa-sort-down"></i></a>
+        </div>
+        <div class="">
+          <h4 class="bold">Template Design wrokflow</h4>
+          <p>Template design workflow
+            <ul>
+              <li>Animated Icons</li>
+              <li>Search bar and Register</li>
+              <li>Fixed navbar</li>
+              <li>Fully Responsive</li>
+              <li>Colorful</li>
+            </ul>
+          </p>
+          <!--           <a target="_blank" href="https://www.behance.net/gallery/97896045/UIUX-Design-Driving-School">Click
+            Here</a> -->
+        </div>
+      </div>
+
+      <div class="eight all wow fadeInUpBig" data-wow-delay=".1s">
+        <img src="images/works/TodoList.png" alt="Todo">
+        <div class="web-link text-center">
+          <a href="https://tasks123.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <input type="text" value="https://tasks123.netlify.app/" readonly>
+          <a class="web-desc"><i class="fas fa-sort-down"></i></a>
+        </div>
+        <div class="">
+          <h4 class="bold">TodoList</h4>
+          <p>TodoList is React.js app i made it using Hooks
+            <ul>
+              <li>Add ,Edit, Delete task</li>
+              <li>Custom color</li>
+              <li>Notifications</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="six all wow fadeInUpBig" data-wow-delay=".1s">
+        <img src="images/banners/Validation Form.png" alt="Form">
+        <div class="web-link text-center">
+          <a href="https://form-model.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <input type="text" value="https://form-model.netlify.app/" readonly>
+          <a class="web-desc"><i class="fas fa-sort-down"></i></a>
+        </div>
+        <div class="">
+          <h4 class="bold">Digitale Immobilienvermittlung</h4>
+          <p>Validation form connected with google sheet</p>
+          <h5 class="bold">Contain</h5>
+          <ul>
+            <li>Validation</li>
+            <li>Check Box</li>
+            <li>Radio Box</li>
+            <li>Select Box</li>
+            <li>Google App Script (Connected with google sheet)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="seven all wow bounceInLeft" data-wow-delay=".1s">
+        <img src="images/banners/Real Estate.png" alt="Real Estate">
+        <div class="web-link text-center">
+          <a href="https://real-estate12.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <input type="text" value="https://real-estate12.netlify.app/" readonly>
+          <a class="web-desc"><i class="fas fa-sort-down"></i></a>
+        </div>
+        <div class="">
+          <h4 class="bold">Real Estate</h4>
+          <p>Static website made for client
+            <ul>
+              <li>Responsive layout</li>
+              <li>Animated</li>
+              <li>Template</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <!--       <div class="eight all wow fadeInUpBig" data-wow-delay=".1s">
+        <img src="images/works/Home.png" alt="Watch">
         <div class="info">
-          <h4 class="bold">Vector Design</h4>
-          <p>Simple vector animated website</p>
-          <a target="_blank" href="https://vector-website.netlify.app/">Click Here</a>
+          <h4 class="bold">UI/UX Section intro</h4>
+          <p>Simple section By Adobe XD and Photoshop</p>
+          <a target="_blank" href="https://www.behance.net/gallery/97532313/Smart-Watches">Click Here</a>
         </div>
       </div>
 
@@ -161,52 +284,35 @@
           <p>Dynamic Website full build, Displays news</p>
           <a target="_blank" href="http://today-news.ezyro.com/">Click Here</a>
         </div>
-      </div>
+      </div> -->
 
-      <div class="six all wow fadeInUpBig" data-wow-delay=".1s">
-        <img src="images/works/germany-form.png" alt="Form">
-        <div class="info">
-          <h4 class="bold">Digitale Immobilienvermittlung</h4>
-          <p>Validation form connected with google sheet</p>
-          <h5 class="bold">Contain</h5>
-          <ul>
-            <li>Validation</li>
-            <li>Check Box</li>
-            <li>Radio Box</li>
-            <li>Select Box</li>
-            <li>Google App Script</li>
-          </ul>
-          <a class="last" target="_blank" href="https://form-model.netlify.app/">Click Here</a>
+
+    </div>
+  </section>
+
+  <!--------------------------------------------->
+  <!-- Reviews  -->
+  <section class="reviews">
+    <div class="container">
+      <h2 class="display-4 bold text-center sec-color wow bounceInUp" data-wow-delay=".3s">My Reviews</h2>
+      <div class="note wow bounceInUp" data-wow-delay=".3s">
+        <h6>On desktop, click on img then use mouse wheel.</h6>
+        <h6>On Mobile phone, Just Double click</h6>
+      </div>
+      <div class="review-content">
+        <div class="one zoom wow bounceInLeft" data-wow-delay=".1s"><img src="images/Reviews/Review 1.png"
+            class="img-fluid" alt="My Reviews"></div>
+        <div class="two">
+          <div class="zoom wow bounceInUp" data-wow-delay=".2s"><img src="images/Reviews/Review 2.png" class="img-fluid"
+              alt="My Reviews"></div>
+          <div class="one zoom wow bounceInRight" data-wow-delay=".3s">
+            <img src="images/Reviews/Review 3.png" class="img-fluid" alt="My Reviews">
+          </div>
+          <div class="one zoom wow bounceInDown" data-wow-delay=".1s">
+            <img src="images/Reviews/Review 4.png" class="img-fluid" alt="My Reviews">
+          </div>
         </div>
       </div>
-
-      <div class="seven all wow bounceInLeft" data-wow-delay=".1s">
-        <img src="images/works/Real Estate.png" alt="Real Estate">
-        <div class="info">
-          <h4 class="bold">Real Estate</h4>
-          <p>Static website , Responsive layout, made for client</p>
-          <a target="_blank" href="https://real-estate12.netlify.app/">Click Here</a>
-        </div>
-      </div>
-
-      <div class="eight all wow fadeInUpBig" data-wow-delay=".1s">
-        <img src="images/works/Home.png" alt="Watch">
-        <div class="info">
-          <h4 class="bold">UI/UX Section intro</h4>
-          <p>Simple section By Adobe XD and Photoshop</p>
-          <a target="_blank" href="https://www.behance.net/gallery/97532313/Smart-Watches">Click Here</a>
-        </div>
-      </div>
-
-      <div class="eight all wow fadeInUpBig" data-wow-delay=".1s">
-        <img src="images/works/TodoList.png" alt="Watch">
-        <div class="info">
-          <h4 class="bold">TodoList</h4>
-          <p>TodoList is React.js app i made it using Hooks, you can add tasks, change color, edit and delete .</p>
-          <a target="_blank" href="https://tasks123.netlify.app/">Click Here</a>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -240,6 +346,13 @@
                 class="fab fa-linkedin"></i></a>
             <a href="https://www.behance.net/marco_talaat" target="_blank"><i class="fab fa-behance"></i></a>
             <a href="https://github.com/marcotalaat1412/" target="_blank"><i class="fab fa-github"></i></a>
+            <div class="hire">
+              <h3 class="bold main-color">Hire me</h3>
+              <a href="https://www.freelancer.com/u/marcotalaat14" target="_blank"><img src="images/freelancer-ar21.svg"
+                  alt="Freelancer"></a>
+              <a href="https://www.upwork.com/freelancers/~013412fd15fe370e80" target="_blank"><img
+                  src="images/upwork-ar21.svg" alt="Upwork"></a>
+            </div>
           </div>
         </div>
 
@@ -253,12 +366,16 @@
               <input type="submit" value="Send" id="submit" class="submit">
             </form>
             <script>
-              const scriptURL = 'https://script.google.com/macros/s/AKfycbzinap4yhFAAciBwifgVr3oyEZIImQooOnLzjFr3e3rz2_tGMEw8ZjcUvMLk0Nu_tM_Xw/exec'
+              const scriptURL =
+                'https://script.google.com/macros/s/AKfycbzinap4yhFAAciBwifgVr3oyEZIImQooOnLzjFr3e3rz2_tGMEw8ZjcUvMLk0Nu_tM_Xw/exec'
               const form = document.forms['submit-to-google-sheet']
-            
+
               form.addEventListener('submit', e => {
                 e.preventDefault()
-                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                  })
                   .then(response => console.log('Success!', response))
                   .catch(error => console.error('Error!', error.message))
               })
@@ -275,6 +392,13 @@
 
   <!--======================================================  -->
   <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- For Image Zoom -->
+  <script src="js/image-zoom.js"></script>
+  <script type="text/javascript" src="js/zoom-by-ironex.min.js?v=1"></script>
+  <script type="text/javascript">
+    zoom();
+  </script>
+  <!-- --------------------- -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.nicescroll.min.js"></script>
   <script src="js/wow.min.js"></script>
