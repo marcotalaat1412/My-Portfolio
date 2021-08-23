@@ -1,5 +1,8 @@
 /*Media Query for XS screen*/
 @media (max-width: 767px) {
+    body{
+        overflow: auto;
+    }
 
     /* Landing */
     .landing .inner-landing h2 {
