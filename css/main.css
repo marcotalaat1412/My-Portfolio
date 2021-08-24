@@ -296,7 +296,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1%;
-    overflow: hidden;
 }
 
 .reviews .review-content img {
