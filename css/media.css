@@ -1,6 +1,6 @@
 /*Media Query for XS screen*/
 @media (max-width: 767px) {
-    body{
+    body {
         overflow: auto;
     }
 
@@ -10,7 +10,7 @@
     }
 
     .landing .inner-landing h4 {
-        font-size: 38px;
+        font-size: 33px;
         margin-bottom: 10px;
     }
 
@@ -22,21 +22,26 @@
     .works .container {
         grid-template-columns: 1fr;
     }
-    .works .web-link{
+
+    .works .web-link {
         background-color: #e6e6e6;
     }
-    .works .web-link input{
+
+    .works .web-link input {
         width: 60%;
     }
-    .works .container .all{
+
+    .works .container .all {
         grid-column: span 1;
     }
-    .works .container .all .info{
+
+    .works .container .all .info {
         padding: 30px;
         overflow: auto;
     }
+
     /* Reviews */
-    .reviews .review-content{
+    .reviews .review-content {
         grid-template-columns: 1fr;
     }
 
@@ -48,9 +53,10 @@
 
 /*Media Query for S screen*/
 @media (min-width: 768px) and (max-width: 991px) {
-    .works .container .all{
+    .works .container .all {
         grid-column: span 1;
     }
+
     .slider-svg-2 {
         margin-top: -10px;
     }

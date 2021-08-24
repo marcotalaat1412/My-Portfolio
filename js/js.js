@@ -1,9 +1,11 @@
+/* Zoom Images */
 window.addEventListener('load', function () {
 	var el = document.querySelectorAll('img.lightense');
 	console.log(el)
 	Lightense(el);
-  }, false);
-  
+}, false);
+/*  End of Zoom Images */
+
 $(function () {
 
 	/*
@@ -11,14 +13,14 @@ $(function () {
 	Section My works 
 	================================
 	 */
-	$(".works .container .all").on("mouseenter", function(){
+	$(".works .container .all").on("mouseenter", function () {
 		$(this).children().first().next().css("top", "0")
 	})
-	$(".works .container .all").on("mouseleave", function(){
+	$(".works .container .all").on("mouseleave", function () {
 		$(this).children().first().next().css("top", "-100px")
 		$(this).children().last().removeClass("info")
 	})
-	$(".works .web-link .web-desc").click(function(){
+	$(".works .web-link .web-desc").click(function () {
 		$(this).offsetParent().next().toggleClass("info")
 		$(this).children().toggleClass("rotate")
 	})
@@ -27,8 +29,8 @@ $(function () {
 	Footer => Submit feedback 
 	================================
 	 */
-	$(".submit").click(function(){
-		$(".alert").fadeIn(2000, function(){
+	$(".submit").click(function () {
+		$(".alert").fadeIn(2000, function () {
 			$(this).fadeOut();
 		})
 	})
