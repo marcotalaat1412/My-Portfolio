@@ -1,30 +1,10 @@
-
+window.addEventListener('load', function () {
+	var el = document.querySelectorAll('img.lightense');
+	console.log(el)
+	Lightense(el);
+  }, false);
+  
 $(function () {
-
-	/*
-	================================
-	Images Zoom
-	================================
-	 */
-	var $ = jQuery.noConflict();
-
-	$(document).ready(function(){
-
-		// Image zoom plugin code
-		var zoomImage = $('.imageZoom');
-		var zoomImageExtra = $('#imageZoomExtra');
-		var zoomImagePlus = $('#imageZoomExtraPlus');
-		var zoomImages = $('.zoom-images');
-
-		zoomImage.imageZoom();
-		zoomImageExtra.imageZoom({zoom : 200});
-		zoomImagePlus.imageZoom({zoom : 300});
-
-		zoomImages.each(function() {
-			$(this).imageZoom();
-		});
-
-	});
 
 	/*
 	================================
